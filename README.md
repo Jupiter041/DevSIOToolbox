@@ -26,8 +26,6 @@ Pour installer DevSIOToolbox, suivez ces étapes :
 
 ## Utilisation
 
-## Explications des Commandes
-
 ### 1. Clonage du Dépôt
 
 ```bash
