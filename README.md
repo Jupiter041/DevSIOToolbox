@@ -30,10 +30,11 @@ Pour installer DevSIOToolbox, suivez ces étapes :
 
 Pour améliorer votre expérience de développement, configurez des raccourcis personnalisés dans Konsole :
 
-```bash
 # Allez dans "Raccourcis personnalisés" et créez une nouvelle commande
 # avec un raccourci clavier de votre choix, dans l'onglet "Action"
 # Entrez la commande suivante :
+
+```bash
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
 ```
 
@@ -83,6 +84,5 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration 
 ## License
 
 Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
-```
 
 Si vous avez d'autres ajustements ou ajouts en tête, n'hésitez pas à demander !
