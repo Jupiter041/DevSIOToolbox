@@ -34,13 +34,6 @@ Pour améliorer votre expérience de développement, suivez ces étapes dans vot
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
 ```
 
-### Commandes utiles
-
-- Pour créer un nouveau projet :
-  ```bash
-  ./votre_script.sh
-  ```
-
 ## Contribution
 Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
 
