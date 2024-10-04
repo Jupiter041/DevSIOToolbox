@@ -26,17 +26,6 @@ Pour installer DevSIOToolbox, suivez ces étapes :
 
 ## Utilisation
 
-### Raccourcis personnalisés pour Konsole
-
-Pour améliorer votre expérience de développement, configurez des raccourcis personnalisés dans Konsole :
-
-- **` Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action" `**
-- **` Entrez la commande suivante : `**
-
-```bash
-konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
-```
-
 ## Explications des Commandes
 
 ### 1. Clonage du Dépôt
@@ -68,6 +57,8 @@ chmod 777 install_codeigniter.sh
   - Exécute le script d'installation.
 
 ### 4. Raccourcis Personnalisés
+
+- Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action"
 
 ```bash
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
