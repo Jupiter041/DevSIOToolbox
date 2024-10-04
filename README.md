@@ -39,6 +39,6 @@ Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration 
 
 ## License
 
-Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE.md) pour plus d'informations.
 
 Si vous avez d'autres ajustements ou ajouts en tête, n'hésitez pas à demander !
