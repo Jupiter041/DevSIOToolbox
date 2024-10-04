@@ -30,8 +30,7 @@ Pour installer DevSIOToolbox, suivez ces étapes :
 
 Pour améliorer votre expérience de développement, configurez des raccourcis personnalisés dans Konsole :
 
-- **` Allez dans "Raccourcis personnalisés" et créez une nouvelle commande `**
-- **` avec un raccourci clavier de votre choix, dans l'onglet "Action" `**
+- **` Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action" `**
 - **` Entrez la commande suivante : `**
 
 ```bash
