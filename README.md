@@ -1,32 +1,33 @@
-Voici le contenu du `README.md` avec l'intégration de l'instruction dans une console. Je vais également m'assurer que le formatage est propre et clair.
-
 ```markdown
 # DevSIOToolbox
 
 ## Description
-DevSIOToolbox est un projet conçu pour aider les étudiants de BTS SIO option SLAM à faciliter leurs travaux de développement. Ce projet regroupe plusieurs outils et ressources pour le développement.
+
+DevSIOToolbox est un projet créé pour faciliter le développement des étudiants en BTS SIO option SLAM. Ce projet contient des outils et des scripts pour aider à la configuration et à la gestion des environnements de développement.
 
 ## Installation
 
-1. **Cloner le dépôt** :
-   ```bash
-   git clone https://gitlab.com/ton_nom_utilisateur/DevSIOToolbox.git
-   cd DevSIOToolbox
-   ```
+Pour installer DevSIOToolbox, suivez ces étapes :
 
-2. **Configurer votre environnement** :
-   - Assurez-vous d'avoir [Composer](https://getcomposer.org/) installé sur votre machine.
+1. Clonez le dépôt :
+    ```bash
+    git clone https://github.com/VOTRE_NOM_UTILISATEUR/DevSIOToolbox.git
+    cd DevSIOToolbox
+    ```
 
-3. **Installer les dépendances** :
-   ```bash
-   composer install
-   ```
+2. Assurez-vous que le fichier `install_codeigniter.sh` a les bonnes permissions :
+    ```bash
+    chmod 777 install_codeigniter.sh
+    ```
+
+3. Exécutez le script d'installation :
+    ```bash
+    ./install_codeigniter.sh
+    ```
 
 ## Utilisation
 
 ### Raccourcis personnalisés pour Konsole
-
-Pour améliorer votre expérience de développement, suivez ces étapes dans votre terminal :
 
 ```bash
 # Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action"
@@ -34,20 +35,29 @@ Pour améliorer votre expérience de développement, suivez ces étapes dans vot
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
 ```
 
-## Contribution
-Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
+## Contribuer
 
-1. Fork ce dépôt.
-2. Créez une branche pour votre fonctionnalité : `git checkout -b feature/AmazingFeature`
-3. Commitez vos changements : `git commit -m 'Add some AmazingFeature'`
-4. Poussez vers la branche : `git push origin feature/AmazingFeature`
-5. Ouvrez une demande de tirage.
+Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration ou des fonctionnalités à ajouter, n'hésitez pas à ouvrir une issue ou à soumettre une demande de tirage.
 
 ## License
-Ce projet est sous licence [MIT](LICENSE).
 
-## Acknowledgements
-Merci à tous ceux qui ont contribué à ce projet. Vos efforts sont grandement appréciés !
+Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+```
 
+### Explications des Commandes
 
-N'hésite pas à demander d'autres modifications si nécessaire !
+1. **Clonage du Dépôt**: 
+   - `git clone https://github.com/VOTRE_NOM_UTILISATEUR/DevSIOToolbox.git` : Clone le dépôt GitHub sur votre machine locale.
+   - `cd DevSIOToolbox` : Change le répertoire courant pour celui du projet cloné.
+
+2. **Changement de Permissions**: 
+   - `chmod 777 install_codeigniter.sh` : Donne les permissions de lecture, écriture et exécution à tous les utilisateurs pour le fichier `install_codeigniter.sh`, permettant ainsi de l'exécuter sans problème.
+
+3. **Exécution du Script**: 
+   - `./install_codeigniter.sh` : Exécute le script d'installation.
+
+4. **Raccourcis Personnalisés**:
+   - `konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"` : Ouvre un nouveau terminal Konsole et exécute le script spécifié. Remplacez `le/chemin/complet/jusqu'au/bash` par le chemin complet vers votre script.
+
+### Remarque
+N'oubliez pas de remplacer `VOTRE_NOM_UTILISATEUR` par votre nom d'utilisateur GitHub dans le lien du dépôt. Si vous avez besoin d'autres ajustements ou d'informations supplémentaires, faites-le moi savoir !
