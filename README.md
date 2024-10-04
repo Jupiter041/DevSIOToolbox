@@ -48,6 +48,6 @@ Ce projet est sous licence [MIT](LICENSE).
 
 ## Acknowledgements
 Merci à tous ceux qui ont contribué à ce projet. Vos efforts sont grandement appréciés !
-```
+
 
 N'hésite pas à demander d'autres modifications si nécessaire !
