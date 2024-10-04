@@ -31,40 +31,29 @@ Pour installer DevSIOToolbox, suivez ces étapes :
 ### 1. Clonage du Dépôt
 
 ```bash
-git clone https://github.com/VOTRE_NOM_UTILISATEUR/DevSIOToolbox.git
+git clone https://github.com/Jupiter041/DevSIOToolbox.git
 cd DevSIOToolbox
 ```
-- **`git clone https://github.com/VOTRE_NOM_UTILISATEUR/DevSIOToolbox.git`** : 
-  - Clone le dépôt GitHub sur votre machine locale. Remplacez `VOTRE_NOM_UTILISATEUR` par votre nom d'utilisateur GitHub.
-  
-- **`cd DevSIOToolbox`** : 
-  - Change le répertoire courant pour celui du projet cloné.
 
 ### 2. Changement de Permissions
 
 ```bash
 chmod 777 install_codeigniter.sh
 ```
-- **`chmod 777 install_codeigniter.sh`** : 
-  - Donne les permissions de lecture, écriture et exécution à tous les utilisateurs pour le fichier `install_codeigniter.sh`, permettant ainsi de l'exécuter sans problème.
 
 ### 3. Exécution du Script
 
 ```bash
 ./install_codeigniter.sh
 ```
-- **`./install_codeigniter.sh`** : 
-  - Exécute le script d'installation.
 
 ### 4. Raccourcis Personnalisés
 
-- Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action"
+ - Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action"
 
 ```bash
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
 ```
-- **`konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"`** : 
-  - Ouvre un nouveau terminal Konsole et exécute le script spécifié. 
   - Remplacez `le/chemin/complet/jusqu'au/bash` par le chemin complet vers votre script.
 
 ## Contribuer
