@@ -24,35 +24,14 @@ Pour installer DevSIOToolbox, suivez ces étapes :
     ./install_codeigniter.sh
     ```
 
-## Utilisation
-
-### 1. Clonage du Dépôt
-
-```bash
-git clone https://github.com/Jupiter041/DevSIOToolbox.git
-cd DevSIOToolbox
-```
-
-### 2. Changement de Permissions
-
-```bash
-chmod 777 install_codeigniter.sh
-```
-
-### 3. Exécution du Script
-
-```bash
-./install_codeigniter.sh
-```
-
-### 4. Raccourcis Personnalisés
+4. Raccourcis Personnalisés
 
  - Allez dans "Raccourcis personnalisés" et créez une nouvelle commande avec un raccourci clavier de votre choix, dans l'onglet "Action"
+ - Remplacez `le/chemin/complet/jusqu'au/bash` par le chemin complet vers votre script.
 
 ```bash
 konsole --nofork -e "bash -c 'le/chemin/complet/jusqu'au/bash; exec bash'"
 ```
-  - Remplacez `le/chemin/complet/jusqu'au/bash` par le chemin complet vers votre script.
 
 ## Contribuer
 
