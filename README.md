@@ -47,11 +47,17 @@ chmod +x install_codeigniter_linux.sh
 ./install_codeigniter_linux.sh
 ```
 
-#### Pour Windows (via PowerShell) :
+### Windows (XAMPP/WAMP)
 
-```powershell
-.\install_codeigniter_windows.ps1
-```
+1. Clonez ou téléchargez le fichier `install_codeigniter.ps1`.
+2. Ouvrez **PowerShell** en tant qu'administrateur.
+3. Exécutez le script :
+
+    ```powershell
+    .\install_codeigniter.ps1
+    ```
+
+4. Suivez les instructions à l'écran pour entrer le nom du projet et choisir entre **XAMPP** et **WAMP**. Le projet sera créé dans le dossier `C:\xampp\htdocs\` (pour XAMPP) ou `C:\wamp\www\` (pour WAMP).
 
 ## Utilisation
 
