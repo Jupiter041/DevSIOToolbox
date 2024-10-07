@@ -47,7 +47,7 @@ chmod +x install_codeigniter_linux.sh
 ./install_codeigniter_linux.sh
 ```
 
-### Windows (XAMPP/WAMP)
+#### Pour Windows (XAMPP/WAMP) :
 
 1. Clonez ou téléchargez le fichier `install_codeigniter.ps1`.
 2. Ouvrez **PowerShell** en tant qu'administrateur.
