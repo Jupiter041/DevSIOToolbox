@@ -15,13 +15,13 @@
 ### Linux
 
 - **Composer** : [Installation Composer](https://getcomposer.org/download/)
-- **VSCodium** (optionnel) : [Installation VSCodium](https://vscodium.com)
+- **VSCodium** : [Installation VSCodium](https://vscodium.com)
 - Terminal supportant Bash
 
 ### Windows
 
 - **Composer** : [Installation Composer](https://getcomposer.org/download/)
-- **VSCodium** (optionnel) : [Installation VSCodium](https://vscodium.com)
+- **VSCodium** : [Installation VSCodium](https://vscodium.com)
 - PowerShell (inclus dans Windows)
 
 ## Installation
